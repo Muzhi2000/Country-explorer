@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  min-height: 100vh;
+  padding: 40px 20px;
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: white;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+input,
+select {
+  padding: 12px 16px;
+  border-radius: 12px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  min-width: 200px;
+  transition: 0.3s ease;
+}
+
+input:focus,
+select:focus {
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.4);
+}
+
+input {
+  background: rgba(255, 255, 255, 0.9);
+}
+
+select {
+  background: rgba(255, 255, 255, 0.9);
+  cursor: pointer;
+}
+
+.message {
+  text-align: center;
+  margin-top: 20px;
+  color: white;
+  font-weight: 400;
+}
+
+.countries-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+}
+
+.country-card {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+  transition: 0.3s ease;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.country-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25);
+}
+
+.country-card img {
+  width: 80px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.country-card h3 {
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.country-card p {
+  font-size: 14px;
+  color: #7c7676;
+  margin: 4px 0;
+}
+
+button {
+  margin-top: 10px;
+  padding: 8px 14px;
+  border-radius: 10px;
+  border: none;
+  background: #ff4b5c;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+button:hover {
+  background: #e63e4d;
+}
+
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 22px;
+  }
+}
