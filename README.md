@@ -44,8 +44,8 @@ https://restcountries.com/v3.1/region/{region}
 ![Home](./screenshots/home.png)
 
 ### 🔎 Results Page
-![Results](./screenshots/results.png)
+![Results](./screenshots/result.png)
 
 
-![Results](./results.png)
+
 
