@@ -43,7 +43,7 @@ https://restcountries.com/v3.1/region/{region}
 ### 🏠 Home Page
 ![Home](./screenshots/home.png)
 
-### 🔎 Results Page
+### 🔎 Result Page
 ![Results](./screenshots/result.png)
 
 
