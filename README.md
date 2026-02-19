@@ -1,52 +1,45 @@
-# 🌍 Countries Explorer App
+# 🌍 Countries Explorer
 
-A React + Vite application that allows users to explore country data using the REST Countries API.
+Week 3 Assignment — Countries Explorer App
 
----
-
-## 🚀 Features
-
-- Load all countries
-- Search countries by name
-- Filter countries by region
-- Loading state handling
-- Error handling with retry button
-- Safe rendering for missing fields
+This app allows users to explore country data using the REST Countries API.
 
 ---
 
-## 🛠 Tech Stack
+## 🚀 How to Run the Project
 
-- React
-- Vite
-- useState
-- useEffect
-- REST Countries API
+1. Clone the repository:
+   git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+
+2. Navigate into the folder:
+   cd YOUR_REPO_NAME
+
+3. Install dependencies:
+   npm install
+
+4. Start the development server:
+   npm run dev
 
 ---
 
-## 📡 API Endpoints Used
+## 🌐 API Endpoints Used
 
-### Get All Countries
+All countries:
 https://restcountries.com/v3.1/all
 
-### Search by Name
+Search by name:
 https://restcountries.com/v3.1/name/{name}
 
-Example:
-https://restcountries.com/v3.1/name/germany
-
-### Filter by Region
+Filter by region:
 https://restcountries.com/v3.1/region/{region}
-
-Example:
-https://restcountries.com/v3.1/region/europe
 
 ---
 
-## ▶️ How to Run the Project
+## 📸 Screenshots
 
-### 1. Clone the repository
+### 🏠 Home Page
+![Home](./home.png)
 
-```bash
-git clone https://github.com/Muzhi2000/Country-explorer.git
+### 🔎 Results Page
+![Results](./results.png)
+
